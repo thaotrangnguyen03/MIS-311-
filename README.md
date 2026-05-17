@@ -36,11 +36,7 @@ The dataset is useful for performing descriptive and business analytics to under
 
 # 2. Data Cleaning
 
-Three duplicate rows were identified in the dataset and removed to prevent repeated sales transactions from affecting the analysis results. After removing duplicate records, the dataset became more reliable and suitable for descriptive statistics and correlation analysis.
-
-Because the same transaction may be counted more than once, duplicate rows might skew the analysis's findings and produce erroneous revenue, averages, and business insights.
-
-<img width="1878" height="966" alt="image" src="https://github.com/user-attachments/assets/4d606605-acf7-439f-8688-4545c5c73d8f" />
+Three duplicate rows were identified in the dataset and removed to prevent repeated sales transactions from affecting the analysis results. After removing duplicate records, the dataset became more reliable and suitable for descriptive statistics and correlation analysis. Because the same transaction may be counted more than once, duplicate rows might skew the analysis's findings and produce erroneous revenue, averages, and business insights.
 
 This step focused on examining the dataset to identify missing values, duplicate records, and inconsistencies before conducting further analysis and building summary tables. After the inspection process, the dataset contained 3 missing values in the customer_type column, 6 missing values in the product_category column, and 3 missing values in the quantity column, resulting in a total of 12 missing data points. In addition, 3 duplicate rows were identified and removed to improve data accuracy and reliability.
 
@@ -63,6 +59,12 @@ Thirdly, missing values in the quantity field were handled using the Median Impu
 Overall, the data cleaning process significantly improved dataset quality by removing duplicate transactions, correcting inconsistent classifications, and handling incomplete records. After cleaning, 239 valid and reliable observations remained in the dataset. These improvements help ensure more accurate descriptive statistics, visualization, and further analytical processes such as correlation analysis in subsequent stages.
 
 # 3. Descriptive Statistics
+
+<img width="1878" height="966" alt="image" src="https://github.com/user-attachments/assets/4d606605-acf7-439f-8688-4545c5c73d8f" />
+
+The descriptive statistics table provides an overview of the supermarket’s sales performance through three key variables: Quantity, Total_price, and Revenue. The results show that the average quantity purchased per transaction was approximately 10.61 items, with quantities ranging from 1 to 20 items, indicating a relatively balanced purchasing behavior among customers. The average total price per transaction was around $123.77, while the average revenue generated reached approximately $1,756.81. In particular, Revenue has the highest standard deviation (1954.943), showing that revenue values varied significantly across transactions, meaning some transactions generated exceptionally high sales compared to others. Additionally, the positive skewness values for Total_price (0.91) and Revenue (1.35) indicate that the data distribution is right-skewed, where a small number of transactions contributed disproportionately high values.
+
+Moreover, the correlation matrix demonstrates strong positive relationships between the variables. Quantity and Total_price have a correlation coefficient of 0.722, suggesting that purchasing more items generally increases the transaction value. Revenue also shows a very strong correlation with Total_price (0.964), meaning that higher transaction values directly contribute to greater revenue generation. These findings imply that increasing product purchases and encouraging higher-value transactions could significantly improve supermarket revenue performance.
 
 **3.1. Revenue Distribution by Product Category Analysis**
 
