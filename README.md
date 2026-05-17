@@ -3,15 +3,13 @@ Introduction of Business Analytics
 
 Part 1: Data Analysis and Insight
 
-# Supermarket Sales Transaction Dataset
-
-## Dataset Overview
+# Dataset Overview
 
 This dataset contains transactional sales records collected from a supermarket retail business. The data is organised in a single worksheet named **sales**.
 
 The dataset consists of **254 rows** and **8 columns**, where each row represents one individual sales transaction.
 
-## Variables Description
+# Variables Description
 
 The dataset includes the following variables:
 
@@ -26,7 +24,7 @@ The dataset includes the following variables:
 | quantity | Number of items purchased |
 | total_price | Total revenue generated from the transaction |
 
-## Purpose of the Dataset
+# Purpose of the Dataset
 
 This dataset is useful for performing **descriptive analytics** and **business analytics** to better understand supermarket sales performance and customer purchasing behaviour.
 
@@ -38,7 +36,7 @@ The analysis can help answer questions such as:
 - Which products have higher demand?
 - Are there any unusual sales patterns or outliers?
 
-## Possible Analysis Methods
+# Possible Analysis Methods
 
 The dataset can support several analytical and visualisation techniques, including:
 
