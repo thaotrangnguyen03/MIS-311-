@@ -40,4 +40,6 @@ The dataset is useful for performing descriptive and business analytics to under
 
 # 2. Data Cleaning
 
-    
+
+<img width="1878" height="966" alt="image" src="https://github.com/user-attachments/assets/4d606605-acf7-439f-8688-4545c5c73d8f" />
+
