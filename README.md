@@ -42,29 +42,4 @@ The dataset is useful for performing descriptive and business analytics to under
 
 ## Descriptive Statistics and Correlation Results
 
-| Statistic | Quantity | Total_price | Revenue |
-|---|---:|---:|---:|
-| Mean | 10.61 | 123.77 | 1,756.81 |
-| Standard Error | 0.38 | 6.48 | 122.91 |
-| Median | 11 | 94.17 | 1,061.64 |
-| Mode | 2 | 14.08 | 56.32 |
-| Standard Deviation | 5.98 | 103.09 | 1,954.94 |
-| Sample Variance | 35.75 | 10,627.92 | 3,821,800 |
-| Kurtosis | -1.26 | 0.03 | 1.25 |
-| Skewness | -0.07 | 0.91 | 1.35 |
-| Range | 19 | 424.96 | 8,538.44 |
-| Minimum | 1 | 2.18 | 4.36 |
-| Maximum | 20 | 427.14 | 8,542.80 |
-| Sum | 2,685 | 31,312.78 | 444,472.10 |
-| Count | 253 | 253 | 253 |
-
-## Correlation Analysis
-
-The correlation matrix shows the relationship between **quantity**, **total_price**, and **revenue**.
-
-| Variables | Quantity | Total_price | Revenue |
-|---|---:|---:|---:|
-| Quantity | 1 | 0.722 | 0.785 |
-| Total_price | 0.722 | 1 | 0.964 |
-| Revenue | 0.785 | 0.964 | 1 |
-
+![Descriptive Statistics and Correlation Matrix](image.png)
