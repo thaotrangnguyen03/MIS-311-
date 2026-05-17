@@ -36,17 +36,4 @@ The analysis can help answer questions such as:
 - Which products have higher demand?
 - Are there any unusual sales patterns or outliers?
 
-# Possible Analysis Methods
-
-The dataset can support several analytical and visualisation techniques, including:
-
-- Pivot tables
-- Pie charts
-- Bar charts
-- Box plots
-- Descriptive statistics
-- Comparative analysis by branch, city, customer type, and product category
-
-## Business Value
-
-By analysing this dataset, supermarket managers can identify sales trends, improve inventory planning, understand customer segments, and support better decision-making in retail management.
+The dataset is useful for performing descriptive and business analytics to understand customer purchasing behaviour, sales performance across branches and cities, product demand, and revenue trends. It can support visualisation techniques such as pie charts, box plots, pivot tables, and comparative analysis for decision-making in retail management.
