@@ -7,7 +7,7 @@ Part 1: Data Analysis and Insight
 
 This dataset contains transactional sales records collected from a supermarket retail business. The data is organised in a single worksheet named sales. The dataset consists of *254 rows* and *8 columns*, where each row represents one individual sales transaction.
 
-# Variables Description
+**Variables Description**
 
 The dataset includes the following variables:
 
@@ -47,10 +47,15 @@ This step focused on examining the dataset to identify missing values, duplicate
 Firstly, missing values in the customer_type field were addressed using the Mode Imputation method. Out of 253 observations, only 3 records were missing customer type information. Based on the frequency distribution, the number of Member customers (131 records) was slightly higher than Regular customers (119 records). Therefore, the missing values were replaced with “Member” in order to preserve the dataset size while maintaining the overall distribution of customer categories with minimal distortion.  
 
 Secondly, inconsistencies were identified in the product_category field due to incorrect or inconsistent classification between product names and their assigned categories. For example, “Shampoo” appeared under multiple categories such as stationery, household goods, and personal care; “Orange Juice” was incorrectly categorized as household goods instead of beverages; and “Detergent” was mistakenly classified as a beverage in several records. To resolve these issues, a new variable named Cleaned_Product_Category was created to standardize product classifications and ensure data consistency. Each product was reassigned into a more appropriate category based on logical retail grouping rules, including:
+
 •	Apple → Fruits 
+
 •	Orange Juice → Beverages 
+
 •	Detergent → Household 
+
 •	Shampoo → Personal Care 
+
 •	Notebook → Stationery 
 
 Thirdly, missing values in the quantity field were handled using the Median Imputation method. Since quantity in a supermarket dataset should represent the number of units sold, all values must remain as whole numbers. The median value of the dataset was identified as 11, and all three missing records were replaced with this value. Although the mean quantity was approximately 10.6, using the mean would generate decimal values, which are unrealistic in a retail transaction context because products are typically sold in whole units. Therefore, the median was considered a more suitable and practical replacement value.
@@ -58,4 +63,34 @@ Thirdly, missing values in the quantity field were handled using the Median Impu
 Overall, the data cleaning process significantly improved dataset quality by removing duplicate transactions, correcting inconsistent classifications, and handling incomplete records. After cleaning, 239 valid and reliable observations remained in the dataset. These improvements help ensure more accurate descriptive statistics, visualization, and further analytical processes such as correlation analysis in subsequent stages.
 
 # 3. Descriptive Statistics
+
+**3.1. Revenue Distribution by Product Category Analysis**
+
+<img width="1271" height="755" alt="image" src="https://github.com/user-attachments/assets/44c5ab47-681a-4cf5-a5fe-c971538b835f" />
+
+The Pareto chart illustrates the revenue contribution of each product category in the supermarket dataset. Among all categories, Fruits generated the highest revenue at $113,690.98, followed by Stationery with $96,477.07 and Beverages with $95,533.38. These three categories are the major contributors to total sales revenue. Meanwhile, Household and Personal Care showed moderate performance with revenues above $60,000, while the final category contributed only $7,791.74, representing the smallest share of revenue. The cumulative percentage line also indicates that the top three categories account for approximately 70% of total revenue, demonstrating a strong concentration of sales in a few product groups.
+
+The analysis suggests that customers primarily spend on essential and frequently purchased products such as fruits, beverages, and stationery items. Since these categories contribute the majority of total revenue, the supermarket should prioritize them in inventory management, promotional campaigns, and shelf placement strategies to maximize profitability. In contrast, low-performing categories may require further evaluation to determine whether improvements in marketing, pricing, or product assortment are necessary. Additionally, the heavy dependence on a few categories indicates potential business risk if demand for these products declines, so diversification strategies may help maintain stable long-term revenue growth.
+
+Overall, the Pareto analysis reveals that a small number of product categories generate most of the supermarket’s revenue. By focusing on high-performing categories while improving or optimizing weaker categories, the business can enhance operational efficiency, customer satisfaction, and overall financial performance.
+
+**3.2. Average Transaction Value by Customer Type Analysis**
+
+<img width="1358" height="413" alt="image" src="https://github.com/user-attachments/assets/329c5244-eac8-4ef9-81c7-a31aee627f9a" />
+
+The chart presents the average transaction value based on customer type. The results show that Member customers have a higher average transaction value of approximately $133.88, while Normal customers spend an average of $112.38 per transaction. The overall average transaction value across all customers is $123.77. This indicates that member customers tend to spend significantly more per purchase compared to non-member customers.
+
+The higher spending behaviour of member customers suggests that the membership program is effective in encouraging customer loyalty and increasing purchase value. Given that, members may be motivated by benefits such as discounts, reward points, or personalised promotions, leading them to make larger purchases. Therefore, the supermarket should continue strengthening its loyalty program by offering exclusive promotions and personalised marketing campaigns to retain high-value customers. Additionally, the company can encourage normal customers to register for membership programs to increase their spending behaviour and improve long-term customer retention.
+
+In conclusion, the analysis demonstrates that member customers contribute greater value per transaction than normal customers. This highlights to show the importance of customer loyalty programs in enhancing sales performance and generating higher revenue for the business.
+
+**3.3 Revenue Percentage by Customer Type Analysis**
+
+<img width="1143" height="463" alt="image" src="https://github.com/user-attachments/assets/6161ba17-d216-487d-b6d9-8cfafa3f4d59" />
+
+The pie chart illustrates the percentage contribution of revenue by customer type. The results indicate that Member customers contribute the majority of total revenue, accounting for 58.82%, while Normal customers contribute 41.18%. This shows that member customers generate a significantly larger share of the supermarket’s total sales revenue compared to non-member customers.
+
+The higher revenue contribution from member customers suggests that loyalty programs are highly effective in increasing customer spending and encouraging repeat purchases. Members likely shop more frequently and spend more per transaction due to benefits such as discounts, reward points, and personalised offers. Therefore, the supermarket should continue investing in membership programs and customer relationship management strategies to retain loyal customers. In addition, the business should develop promotional campaigns to convert more existing customers into members, which could further increase long-term revenue and customer retention.
+
+In short, the analysis demonstrates that member customers are the key drivers of the supermarket’s revenue performance. Strengthening customer loyalty programs and improving member engagement can help the business maintain stable revenue growth and enhance overall profitability.
 
