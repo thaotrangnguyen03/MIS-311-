@@ -5,9 +5,9 @@ Part 1: Data Analysis and Insight
 
 # 1. Dataset Overview
 
-This dataset contains transactional sales records collected from a supermarket retail business. The data is organised in a single worksheet named **sales**.
+This dataset contains transactional sales records collected from a supermarket retail business. The data is organised in a single worksheet named sales.
 
-The dataset consists of **254 rows** and **8 columns**, where each row represents one individual sales transaction.
+The dataset consists of *254 rows* and *8 columns*, where each row represents one individual sales transaction.
 
 # Variables Description
 
@@ -24,7 +24,7 @@ The dataset includes the following variables:
 | quantity | Number of items purchased |
 | total_price | Total revenue generated from the transaction |
 
-This dataset is useful for performing **descriptive analytics** and **business analytics** to better understand supermarket sales performance and customer purchasing behaviour.
+This dataset is useful for performing *descriptive analytics* and *business analytics and insights* to better understand supermarket sales performance and customer purchasing behaviour.
 
 The analysis can help answer questions such as:
 
