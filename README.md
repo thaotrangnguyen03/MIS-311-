@@ -9,6 +9,8 @@ This dataset contains transactional sales records collected from a supermarket r
 
 The dataset consists of *254 rows* and *8 columns*, where each row represents one individual sales transaction.
 
+Three duplicate rows were identified in the dataset and removed to prevent repeated sales transactions from affecting the analysis results. After removing duplicate records, the dataset became more reliable and suitable for descriptive statistics and correlation analysis.
+
 # Variables Description
 
 The dataset includes the following variables:
