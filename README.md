@@ -24,8 +24,6 @@ The dataset includes the following variables:
 | quantity | Number of items purchased |
 | total_price | Total revenue generated from the transaction |
 
-# Purpose of the Dataset
-
 This dataset is useful for performing **descriptive analytics** and **business analytics** to better understand supermarket sales performance and customer purchasing behaviour.
 
 The analysis can help answer questions such as:
@@ -40,6 +38,12 @@ The dataset is useful for performing descriptive and business analytics to under
 
 # 2. Data Cleaning
 
-## Descriptive Statistics and Correlation Results
+<section class="statistics-section">
+  <h2>Descriptive Statistics and Correlation Results</h2>
 
-![Descriptive Statistics and Correlation Matrix](image.png)
+  <img 
+    src="images/descriptive-statistics.png" 
+    alt="Descriptive statistics and correlation matrix for Quantity, Total Price, and Revenue"
+    class="stats-image"
+  >
+    
