@@ -1,7 +1,7 @@
 # MIS-311-
-Introduction of Business Analytics
+**Introduction of Business Analytics**
 
-Part 1: Data Analysis and Insight
+**Part 1: Data Analysis and Insight**
 
 # 1. Dataset Overview
 
