@@ -38,12 +38,4 @@ The dataset is useful for performing descriptive and business analytics to under
 
 # 2. Data Cleaning
 
-<section class="statistics-section">
-  <h2>Descriptive Statistics and Correlation Results</h2>
-
-  <img 
-    src="images/descriptive-statistics.png" 
-    alt="Descriptive statistics and correlation matrix for Quantity, Total Price, and Revenue"
-    class="stats-image"
-  >
     
