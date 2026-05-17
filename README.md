@@ -3,7 +3,7 @@ Introduction of Business Analytics
 
 Part 1: Data Analysis and Insight
 
-# Dataset Overview
+# 1. Dataset Overview
 
 This dataset contains transactional sales records collected from a supermarket retail business. The data is organised in a single worksheet named **sales**.
 
@@ -37,3 +37,5 @@ The analysis can help answer questions such as:
 - Are there any unusual sales patterns or outliers?
 
 The dataset is useful for performing descriptive and business analytics to understand customer purchasing behaviour, sales performance across branches and cities, product demand, and revenue trends. It can support visualisation techniques such as pie charts, box plots, pivot tables, and comparative analysis for decision-making in retail management.
+
+# 2. Data Cleaning
