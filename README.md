@@ -39,3 +39,7 @@ The analysis can help answer questions such as:
 The dataset is useful for performing descriptive and business analytics to understand customer purchasing behaviour, sales performance across branches and cities, product demand, and revenue trends. It can support visualisation techniques such as pie charts, box plots, pivot tables, and comparative analysis for decision-making in retail management.
 
 # 2. Data Cleaning
+
+## Descriptive Statistics and Correlation Results
+
+![Descriptive Statistics and Correlation Matrix](image.png)
