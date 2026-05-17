@@ -42,4 +42,6 @@ The dataset is useful for performing descriptive and business analytics to under
 
 ## Descriptive Statistics and Correlation Results
 
-![Descriptive Statistics and Correlation Matrix](image.png)
+<p align="center">
+  <img src="./image.png" alt="Descriptive Statistics and Correlation Output" width="1000"/>
+</p>
